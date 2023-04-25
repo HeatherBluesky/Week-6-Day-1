@@ -27,7 +27,7 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
-// will print Miss Scarlet
+// will print Miss Scarlet as she is the once only key word paired to the murderer. 
 #### Episode 2
 
 ```js
@@ -45,7 +45,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
-// Professor Plum .... error message cannot chasnge a constant.
+// Professor Plum .... error message cannot change a constant.
 #### Episode 3
 
 ```js
@@ -81,7 +81,7 @@ const suspects = declareAllSuspects();
 console.log(suspects);
 console.log(`Suspect three is ${suspectThree}.`);
 ```
-/// The suspects are miss scarlet, professor plum, colonel mustard
+/// The suspects are miss scarlet, professor plum, colonel mustard was changes in the first let to be CM so secong print will run the original lets 
 /// suspects three is mrs peacock
 
 #### Episode 5
@@ -105,7 +105,7 @@ changeWeapon('Revolver');
 const verdict = declareWeapon();
 console.log(verdict);
 ```
-///the weapon is the Revolver
+///the weapon is the Revolver.
 
 #### Episode 6
 
@@ -131,7 +131,7 @@ const verdict = declareMurderer();
 console.log(verdict);
 ```
 /// the murderer is colonel mustard 
-// the murderer is actually mrs white. 
+// the murderer is actually mrs white, because of plot twist function. 
 #### Episode 7
 
 ```js
@@ -161,7 +161,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
-
+///  the murderer is MG 
 #### Episode 8
 
 ```js
@@ -200,6 +200,7 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+/// the weapon is CS 
 
 #### Episode 9
 
@@ -207,7 +208,7 @@ console.log(verdict);
 let murderer = 'Professor Plum';
 
 if (murderer === 'Professor Plum') {
-  let murderer = 'Mrs. Peacock';
+  let murderer = 'Mrs. Peacock';     // this murderer isnt highlighted for everyone else...
 }
 
 const declareMurderer = function() {
